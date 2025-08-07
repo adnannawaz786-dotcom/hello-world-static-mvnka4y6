@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple Hello World static website">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <div class="nav-brand">
+                    <h1>Hello World</h1>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2 class="hero-title">Hello, World! 👋</h2>
+                    <p class="hero-subtitle">Welcome to my simple static website</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" id="greetBtn">Say Hello</button>
+                        <button class="btn btn-secondary" id="toggleTheme">Toggle Theme</button>
+                    </div>
+                </div>
+                <div class="hero-animation">
+                    <div class="floating-elements">
+                        <div class="element element-1"></div>
+                        <div class="element element-2"></div>
+                        <div class="element element-3"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Fast & Lightweight</h3>
+                        <p>Pure HTML, CSS, and JavaScript for optimal performance</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>Looks great on all devices and screen sizes</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3>Modern UI</h3>
+                        <p>Clean, professional design with smooth animations</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="message-display">
+                <div class="message-container" id="messageContainer">
+                    <p id="dynamicMessage">Click "Say Hello" to see a personalized message!</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p>&copy; 2024 Hello World Static. Built with ❤️</p>
+                <div class="footer-links">
+                    <a href="#" aria-label="GitHub">
+                        <span class="link-text">GitHub</span>
+                    </a>
+                    <a href="#" aria-label="Portfolio">
+                        <span class="link-text">Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Loading indicator -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
