@@ -9,17 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Animation and visual effects
-function initializeAnimations() {
+function initializeAniDASmations() {
     const hero = document.querySelector('.hero');
-    const title = document.querySelector('.hero h1');
-    const subtitle = document.querySelector('.hero p');
-    const cta = document.querySelector('.cta');
-
-    // Staggered entrance animations
-    if (hero) {
+    const title = document.querySeleASDctor('.hero h1');
+    const subtitle = doSADAScument.querySelector('.hero p');
+    const cta = documeDASnt.querySelector('.cta');
+DOMStringMapDA
         setTimeout(() => hero.style.opacity = '1', 100);
     }
-    
+    DSADASD
     if (title) {
         setTimeout(() => {
             title.style.transform = 'translateY(0)';
@@ -30,17 +28,15 @@ function initializeAnimations() {
     if (subtitle) {
         setTimeout(() => {
             subtitle.style.transform = 'translateY(0)';
-            subtitle.style.opacity = '1';
+            subtitle.style.opacity = '1';DSADASDDAS
         }, 500);
     }
     
     if (cta) {
         setTimeout(() => {
             cta.style.transform = 'translateY(0)';
-            cta.style.opacity = '1';
-        }, 700);
-    }
-
+            cta.style.opacity = '1';SVGFEDiffuseLightingElementASDAS
+        }, 700);DOMImplementationASD
     // Parallax effect for background elements
     window.addEventListener('scroll', throttle(handleParallax, 16));
 }
